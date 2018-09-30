@@ -1,0 +1,769 @@
+/*
+Author: Al Nur Tarique Robi
+Front-End Designer
+E-mail: khanrobi127@gmail.com
+*/
+
+/*  
+=====Index=====
+1.Global CSS
+2.Header
+3.Banner
+4.About
+5.Practice Area
+6.Lawyers
+7.Publications
+8.FAQ
+9.Contact
+10.Footer
+ */
+
+ /* Global CSS */
+ @import url('https://fonts.googleapis.com/css?family=Lato:100,300,400,700,900|Open+Sans:300,400,600,700,800|Playfair+Display+SC:400,900');
+ body{
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size: 15px;
+ 	color: #111111;
+ }
+ h1{
+ 	font-family: 'Playfair Display SC', serif;
+ 	font-size: 36px;
+ }
+ h2{
+ 	font-family: 'Playfair Display SC', serif;
+ 	font-size: 30px;
+ }
+ h3{
+ 	font-family: 'Playfair Display SC', serif;
+ 	font-size: 30px;
+ }
+ h4{
+ 	font-family: 'Lato', sans-serif;
+ }
+ h5{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 22px;
+ }
+ h6{
+ 	font-family: 'Lato', sans-serif;
+ 	font-size: 18px;
+ }
+ p{
+ 	font-family: 'Open Sans', sans-serif;
+ 	font-size: 15px;
+ 	color: #111111;
+ }
+ a{
+ 	color: #111111;
+ }
+ a:hover{
+ 	color: #e8bf5d;
+ 	text-decoration: none;
+ }
+section {
+  padding: 50px 0;
+}
+.section-heading-border{
+	border-left: 2px solid #e8bf5d;
+	padding: 0 20px;
+}
+}
+ .img-center{
+ 	display: block;
+ 	margin: 0 auto;
+ }
+.row-padding{
+	padding-top: 60px;
+}
+
+/* 1.Header Section CSS */
+.logo {
+	font-family: 'Playfair Display SC', serif;
+    display: inline-block;
+    padding-top: .3125rem;
+    padding-bottom: .3125rem;
+    margin-right: 1rem;
+    font-size: 1.25rem;
+    line-height: inherit;
+    white-space: nowrap;
+    color: #111111;
+    font-size: 24px;
+    font-weight: bold;
+}
+.logo:hover{
+	color: #111111;
+}
+.logo span{
+	color: #e8bf5d;
+	font-weight: bold;
+}
+.navbar{
+	background-color: #fff;
+}
+.navbar-nav .nav-link {
+    color: #111111;
+    text-transform: uppercase;
+}
+.nav-item{
+	margin-left: 15px;
+}
+.navbar-dark .navbar-nav .active>.nav-link,
+.navbar-dark .navbar-nav .nav-link.active,
+.navbar-dark .navbar-nav .nav-link.show,
+.navbar-dark .navbar-nav .show>.nav-link {
+    color: #111111;
+    border-bottom: 2px solid #e8bf5d;
+}
+/*.navbar-dark .navbar-nav .nav-link:focus,*/
+.navbar-dark .navbar-nav .nav-link:hover {
+    color: #111111;
+    border-bottom: 2px solid #e8bf5d;
+}
+.navbar-dark .navbar-nav .nav-link:focus{
+	 color: #111111;
+}
+.navbar-dark .navbar-nav .nav-link {
+    color: #111111;
+    font-weight: 600;
+}
+.navbar-dark .navbar-toggler {
+    color: #111111;
+    border-color: #111111;
+}
+
+/* 3. Header Section CSS */
+.hero{
+	background: url(../img/banner.png) no-repeat;
+	background-size: 100%;
+}
+.hero-content{
+	padding-top: 375px;
+}
+.info{
+	border-left: 2px solid #e8bf5d;
+	padding: 0 20px;
+}
+.info h1{
+	color: #fff;
+	letter-spacing: 3px;
+}
+.info h6{
+	color: #fff;
+	letter-spacing: 3px;
+}
+.btn-theme {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background: #e8bf5d;
+    border-radius: 50px;
+    box-shadow: none;
+}
+.btn-theme:hover{
+	background: #111111;
+	color: #fff;
+	cursor: pointer;
+	box-shadow: none;
+}
+button:focus {
+    outline: none;
+}
+/* 4. About Section CSS */
+.about .section-heading-img{
+	background: url(../img/01.png) no-repeat;
+	padding: 40px 0px;
+}
+.about h2{
+	font-weight: 500;
+}
+.about h6{
+	width: 60%;
+	color: #666666;
+	line-height: 28px;
+}
+.about-content{
+	padding-top: 50px;
+}
+.about-content h3{
+	padding-top: 8px;
+}
+.timeline-padding{
+	padding-top: 20px;
+}
+
+/* 5. Pactice Area Section CSS*/
+.practice-area{
+	background: #111111;
+}
+.practice-area .section-heading-img{
+	background: url(../img/02.png) no-repeat;
+	padding: 20px 0px;
+}
+.practice-area h2{
+	font-weight: 500;
+	color: #fff;
+}
+.practice-area h6{
+	width: 60%;
+	color: #fff;
+	line-height: 28px;
+}
+.practice-left{
+	margin-top: 60px;
+}
+.practice-left img{
+	float: right;
+}
+.practice-left h2{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.practice-left p{
+	color: #fff;
+	margin-bottom: 60px;
+}
+.practice-right{
+	margin-top: 60px;
+}
+.practice-right img{
+	float: right;
+}
+.practice-right h2{
+	font-size: 22px;
+	margin-bottom: 20px;
+}
+.practice-right p{
+	color: #fff;
+	margin-bottom: 60px;
+}
+/* 6. Lawyer Section CSS*/
+.lawyer h2{
+	font-weight: 500;
+}
+.lawyer h6{
+	width: 60%;
+	color: #666666;
+	line-height: 28px;
+}
+.lawyer .section-heading-img{
+	background: url(../img/03.png) no-repeat;
+    padding: 7px 0px;
+    background-size: 15% 100%;
+}
+.team-member img{
+	width: 100%;
+}
+.team-member-info h6{
+	font-size: 22px;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 0px;
+}
+.team-member-info p{
+	color: #666666;
+	font-size: 14px;
+}
+.lawyer-margin{
+	margin-top: 50px;
+}
+/* 7.Clients Section CSS */
+
+.clients{
+	background: url(../img/client-bg.jpg);
+	background-attachment: fixed;
+}
+.clients h2{
+	font-weight: 500;
+	color: #fff;
+}
+.clients p{
+	color: #fff;
+	width: 100%;
+}
+.clients h6{
+	width: 60%;
+	color: #fff;
+	line-height: 28px;
+}
+.clients h5{
+	font-size: 20px;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.clients .section-heading-img{
+	background: url(../img/04.png) no-repeat;
+    padding: 10px 0px;
+    background-size: 15% 100%;
+}
+.clients img{
+	width: 100%;
+}
+
+/* 8.Publication Section CSS */
+.publications h2{
+	font-weight: 500;
+}
+.publications h6{
+	width: 60%;
+	color: #666666;
+	line-height: 28px;
+}
+.publications img{
+	width: 100%;
+}
+.publications .section-heading-img{
+	background: url(../img/05.png) no-repeat;
+    padding: 7px 0px;
+    background-size: 15% 100%;
+}
+.publications-title h5{
+	font-size: 20px;
+    font-weight: 600;
+    padding-top: 15px;
+    margin-bottom: 0px;
+}
+.publications-title p{
+	font-weight: 600;
+}
+.publications-title span{
+	font-style: italic;
+	font-weight: 300;
+	color: #666666;
+}
+.publications-date p{
+	padding-top: 35px;
+	font-style: italic;
+	color: #666666;
+}
+.publications-content p{
+	line-height: 28px;
+}
+.fa-comments{
+	margin-right: 12px;
+}
+.fa-share-alt{
+	margin-right: 12px;
+}
+.links a{
+	font-weight: 600;
+}
+.border-bottom {
+    border-bottom: 2px solid #e8bf5d !important;
+    margin-top: 15px;
+    margin-bottom: 35px;
+}
+/* 9. FAQ Section CSS  */
+.faq{
+	background: #111111;
+}
+.faq h2{
+	font-weight: 500;
+	color: #fff;
+}
+.faq h6{
+	width: 60%;
+	color: #fff;
+	line-height: 28px;
+}
+.faq .section-heading-img{
+	background: url(../img/06.png) no-repeat;
+    padding: 7px 0px;
+    background-size: 15% 100%;
+}
+.faq-left .fa-minus{
+	color: #fff;
+	float: right;
+	margin-top: 12px;
+}
+.fa-plus{
+	color: #fff;
+	float: right;
+	margin-top: 12px;	
+}
+.faq-left{
+	margin-top: 50px;
+}
+.faq-left p{
+	color: #fff;
+	margin-bottom: 8px;
+	padding: 6px 0px;
+}
+.border-faq{
+	border-bottom: 2px solid #e8bf5d !important;
+	padding-left: 0px;
+    padding-right: 0px;
+}
+.faq-left p:hover{
+	color: #e8bf5d;
+	cursor: pointer;
+}
+.faq-right{
+	margin-top: 50px;
+}
+.faq-right{
+	background-color: #e8bf5d;
+	border-radius: 6px;
+}
+.faq-right p{
+	padding: 48px;
+    line-height: 34px;
+    font-weight: 600;
+}
+/* 9. Contact Section CSS*/
+.contact h2{
+	font-weight: 500;
+}
+.contact h6{
+	width: 60%;
+	color: #666666;
+	line-height: 28px;
+}
+.contact .section-heading-img{
+	background: url(../img/07.png) no-repeat;
+    padding: 7px 0px;
+    background-size: 15% 100%;
+}
+.name.form-group {
+    border-bottom: 1px solid #c2c2c2;
+    width: 80%;
+}
+.form-control{
+	border: none;
+}
+.form-control:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: none;
+}
+.contact textarea{
+	height: 130px;
+	width: 100%;
+    border: none;
+    padding-left: 12px;
+
+}
+.send-btn {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background: #e8bf5d;
+    border-radius: 50px;
+    box-shadow: none;
+}
+.send-btn:hover{
+	background: #111111;
+	color: #fff;
+	cursor: pointer;	
+}
+.btn.focus, .btn:focus {
+    outline: 0;
+    box-shadow: none;
+}
+.message:focus {
+    color: #495057;
+    background-color: #fff;
+    border-color: #80bdff;
+    outline: 0;
+    box-shadow: none;
+}
+.map img{
+	width: 100%;
+}
+.map{
+    box-shadow: -24px 21px 0px rgb(232, 191, 93);
+}
+
+/* Footer Section CSS */
+footer p{
+	color: #fff;
+	margin: 20px 0px;
+}
+footer .fa{
+    font-size: 22px;
+}
+.fa-facebook{
+	color: #fff;
+    margin: 15px 0px;
+    padding-right: 12px;
+    transition: ease all 0.4s;
+    -webkit-transition: ease all 0.4s;
+    -moz-transition: ease all 0.4s;
+    -o-transition: ease all 0.4s;
+}
+.fa-twitter{
+	color: #fff;
+    margin: 15px 0px;
+    padding-right: 12px;
+    transition: ease all 0.4s;
+    -webkit-transition: ease all 0.4s;
+    -moz-transition: ease all 0.4s;
+    -o-transition: ease all 0.4s;
+}
+.fa-linkedin{
+	color: #fff;
+    margin: 15px 0px;
+    padding-right: 12px;
+    transition: ease all 0.4s;
+    -webkit-transition: ease all 0.4s;
+    -moz-transition: ease all 0.4s;
+    -o-transition: ease all 0.4s;
+}
+.fa-google-plus{
+	color: #fff;
+    margin: 15px 0px;
+    padding-right: 12px;
+    transition: ease all 0.4s;
+    -webkit-transition: ease all 0.4s;
+    -moz-transition: ease all 0.4s;
+    -o-transition: ease all 0.4s;
+}
+.fa-facebook:hover{
+	cursor: pointer;
+	color: #80bdff;
+	transform: scale(1.1,1.1);
+}
+.fa-twitter:hover{
+	cursor: pointer;
+	color: #80bdff;
+	transform: scale(1.1,1.1);
+}
+.fa-linkedin:hover{
+	cursor: pointer;
+	color: #80bdff;
+	transform: scale(1.1,1.1);
+}
+.fa-google-plus:hover{
+	cursor: pointer;
+	color: #80bdff;
+	transform: scale(1.1,1.1);
+}
+
+/* Media Query For Mobile */
+@media screen and (max-width: 500px){
+.hero {
+    background: url(../img/banner.png) no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+.hero-content {
+    padding-top: 100%;
+    padding-left: 17%;
+}
+.info h1 {
+    color: #fff;
+    letter-spacing: 0px;
+    font-size: 30px;
+}
+.info h6 {
+    color: #fff;
+    letter-spacing: 1px;
+    font-size: 15px;
+}
+.btn-theme {
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background: #e8bf5d;
+    border-radius: 50px;
+    box-shadow: none;
+    margin-top: 20px;
+}
+.about h6 {
+    width: 100%;
+    color: #666666;
+    line-height: 28px;
+}
+.about h2 {
+    text-align: center;
+    margin-top: 70px;
+}
+.timeline-padding {
+    padding-top: 20px;
+    text-align: center;
+}
+.practice-area h6 {
+    width: 100%;
+}
+.practice-left img {
+    margin: 0 auto;
+    display: block;
+    margin-bottom: 30px;
+    float: none;
+}
+.practice-left h2 {
+    font-size: 22px;
+    margin-bottom: 12px;
+    text-align: center;
+}
+.practice-left p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.practice-right img {
+    float: none;
+    display: block;
+    margin: 0 auto;
+    margin-bottom: 30px;
+}
+.practice-right h2 {
+    text-align: center;
+    font-size: 22px;
+    margin-bottom: 12px;
+}
+.practice-right p {
+    color: #fff;
+    text-align: center;
+    margin-bottom: 50px;
+}
+.lawyer h6 {
+    width: 100%;
+    color: #666666;
+    line-height: 28px;
+}
+.team-member-info h6 {
+    font-size: 22px;
+    font-weight: bold;
+    margin-top: 10px;
+    margin-bottom: 0px;
+    text-align: center;
+}
+.team-member-info p {
+    margin-bottom: 40px;
+    color: #666666;
+    font-size: 14px;
+    text-align: center;
+}
+.clients img {
+    width: 100%;
+    margin-bottom: 30px;
+}
+.clients h6 {
+    width: 100%;
+    color: #fff;
+    line-height: 28px;
+}
+.clients p {
+    color: #fff;
+    width: 100%;
+}
+.clients h5 {
+    font-size: 20px;
+    color: #fff;
+    margin-bottom: 0px;
+    margin-top: 20px;
+}
+.clients p {
+    color: #fff;
+    width: 100%;
+}
+.publications h6 {
+    width: 100%;
+    color: #666666;
+    line-height: 28px;
+}
+.publications-date p {
+    padding-top: 0px;
+    font-style: italic;
+    color: #666666;
+}
+.faq h6 {
+    width: 100%;
+    color: #fff;
+    line-height: 28px;
+}
+.faq-left p {
+    color: #fff;
+    margin-bottom: 8px;
+    padding: 6px 0px;
+    width: 90%;
+}
+.faq-left .fa-minus {
+    color: #fff;
+    float: right;
+    margin-top: -53px;
+}
+.fa-plus {
+    color: #fff;
+    float: right;
+    margin-top: -33px;
+}
+.contact h6 {
+    width: 100%;
+    color: #666666;
+    line-height: 28px;
+}
+.name.form-group {
+    border-bottom: 1px solid #c2c2c2;
+    width: 100%;
+}
+.send-btn {
+    margin-bottom: 50px;
+    display: inline-block;
+    font-weight: 400;
+    text-align: center;
+    white-space: nowrap;
+    vertical-align: middle;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    border: 1px solid transparent;
+    padding: .375rem .75rem;
+    font-size: 1rem;
+    line-height: 1.5;
+    border-radius: .25rem;
+    transition: color .15s ease-in-out,background-color .15s ease-in-out,border-color .15s ease-in-out,box-shadow .15s ease-in-out;
+    background: #e8bf5d;
+    border-radius: 50px;
+    box-shadow: none;
+    margin-left: 30%;
+}
+footer p {
+    color: #fff;
+    margin: 20px 0px 0px;
+    text-align: center;
+}
+footer .text-right {
+    text-align: center!important;
+}
+}
